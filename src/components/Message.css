@@ -1,0 +1,33 @@
+.user-message,
+.robot-message {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-message {
+  justify-content: flex-end;
+}
+
+.user-message p {
+  background-color: rgb(216, 216, 216);
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: .9em;
+  max-width: 200px;
+  overflow-wrap: break-word;
+}
+
+.robot-message p {
+  background-color: rgb(216, 216, 216);
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: .9em;
+  max-width: 200px;
+}
+
+img {
+  width: 38px;
+  height: 38px;
+}

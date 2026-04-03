@@ -1,0 +1,22 @@
+.message-container {
+  display: flex;
+  flex-direction: column;
+  height: 526px;
+  overflow: scroll;
+}
+
+.message-container::before {
+  content: "";
+  flex: 1;
+}
+
+.message-container::-webkit-scrollbar {
+  display: none;
+}
+
+.loading-type {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  font-size: .9em;
+}
